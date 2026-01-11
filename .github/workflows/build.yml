@@ -1,7 +1,0 @@
-on: [push, pull_request, workflow_dispatch]
-
-jobs:
-  build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    with:
-      config_path: "FIRMWARE/ZMK" # Jalur ke folder yang berisi build.yml Anda
